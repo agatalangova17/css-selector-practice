@@ -1,0 +1,97 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #1D1D5C 0%, #27275D 100%); 
+    color: #F0F0F0; 
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6; 
+}
+
+
+div {
+    background: rgba(41, 41, 76, 0.9); 
+    border: none; 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25); 
+    color: #F0F0F0;
+}
+
+.physics-topic, .example-div {
+    background: rgba(44, 44, 84, 0.9); 
+}
+
+#special-example {
+    font-size: 1.25em;
+    background: linear-gradient(to right, #5D5DA8 0%, #7171C6 100%); 
+    color: #FFFFFF;
+    padding: 24px; 
+    margin: 20px 0; 
+}
+
+
+ul > li {
+    font-weight: 700; 
+    padding-left: 10px; 
+}
+
+input[type="text"], input[type="button"] {
+    border: 1px solid #5D5DA8; 
+    background-color: #3A3A6A; 
+    color: #FFFFFF;
+    padding: 12px 20px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    margin: 10px 0; }
+
+input[type="button"] {
+    background-color: #5D5DA8; 
+    transition: background-color 0.3s, transform 0.3s; 
+}
+
+input[type="button"]:hover {
+    background-color: #7171C6; 
+    transform: translateY(-2px); 
+}
+
+
+li:nth-child(even), li:nth-child(odd) {
+    background: transparent; 
+}
+
+a {
+    color: #A0A0FF; 
+    transition: color 0.3s; 
+}
+
+a:hover {
+    color: #C0C0FF; 
+    text-decoration: none; 
+}
+
+
+p::first-line {
+    font-weight: bold; 
+    color: #A0A0FF; 
+}
+
+div::before {
+    content: "🤖 "; 
+    color: #B0B0FF; 
+}
+
+::selection {
+    background: #5D5DA8; 
+    color: #FFFFFF;
+}
+
+
+div.physics-topic p span {
+    background-color: #4D4D99; 
+    color: #FFFFFF;
+    padding: 4px 8px;
+    border-radius: 4px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
